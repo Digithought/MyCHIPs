@@ -12,7 +12,7 @@ maxtopay: 0.1 #Pay up to 10% of my net worth
 maxtarget: 100
 
 # This stuff will come later...
-# agentTypes:
+agentTypes:
 #   - type: 'custom' 
 #     percentOfTotal: 0.6
 #     addclient: 0.1 # Try to add client 10% of the time
@@ -24,12 +24,12 @@ maxtarget: 100
 #     maxtopay: 0.1 #Pay up to 10% of my net worth
 #     maxtarget: 100
 
-#   - type: 'consumer'
-#     percentOfTotal: 0.3
-#     # Any parameters for an agent that are not specified will be set to a default set by the type
+  - type: 'consumer'
+    percentOfTotal: 1
+    # Any parameters for an agent that are not specified will be set to a default set by the type
 
 #   - type: 'large business'  
-#     percentOfToatl: 0.1
+#     percentOfTotal: 0.1
 #     addclient: 0.3
 #     addvendor: 0.3
 #     maxstocks: 10000
